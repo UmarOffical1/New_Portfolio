@@ -138,23 +138,15 @@ body {
     object-fit: cover;
     border-radius: 15px;
     transition: 0.3s;
+    /* background-image: url(./Upper\ Webpage1.png);
+    background-size: cover; */
 }
 
 .slide:hover {
     transform: scale(1.03);
 }
 
-/* Slider Animation */
-@keyframes slide {
-    0% { transform: translateX(0); }
-    33% { transform: translateX(0); }
 
-    38% { transform: translateX(-100%); }
-    66% { transform: translateX(-100%); }
-
-    72% { transform: translateX(-200%); }
-    100% { transform: translateX(-200%); }
-}
 
 /* ===== Footer ===== */
 footer {
